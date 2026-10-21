@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Esa Cahya Krishna Putra A12.2025.07335</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS buatan sendiri -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar: otomatis jadi tombol menu (hamburger) di layar kecil -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#profil">Esa Cahya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#profil">Profil Saya</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pendidikan">Riwayat Pendidikan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian &amp; Hobi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bagian Profil -->
+  <section id="profil" class="bg-primary text-white py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Di layar besar: foto di kiri, teks di kanan. Di HP: foto di atas, teks di bawah -->
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="image/fotoprofilesa.jpeg" alt="Foto profil Esa Cahya"
+               class="img-fluid rounded-circle foto-profil">
+        </div>
+        <div class="col-md-8">
+          <h1>PORTFOLIO ESA CAHYA</h1>
+          <h5 class="mb-3">Program Studi Sistem Informasi - Universitas Dian Nuswantoro</h5>
+          <p>
+            Halo! Nama saya Esa Cahya Krishna Putra. Saya adalah mahasiswa aktif Program Studi
+            Sistem Informasi di Fakultas Ilmu Komputer. Saya memiliki ketertarikan yang besar
+            dalam bidang pengembangan aplikasi web, perancangan basis data, serta analisis
+            sistem informasi.
+          </p>
+          <p>
+            Halaman ini adalah hasil redesign dari Tugas 1 menggunakan CSS dan Bootstrap
+            agar tampil modern dan responsif di desktop maupun mobile.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Pendidikan -->
+  <section id="pendidikan" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Riwayat Pendidikan</h2>
+      <!-- table-responsive: tabel bisa digeser kalau layar sempit -->
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>Tingkat Pendidikan</th>
+              <th>Nama Instansi / Sekolah</th>
+              <th>Tahun</th>
+              <th>Keterangan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sekolah Menengah Atas (SMA)</td>
+              <td>SMA Kristen Terang Bangsa</td>
+              <td>2021-2025</td>
+              <td>Jurusan IPS</td>
+            </tr>
+            <tr>
+              <td>Perguruan Tinggi (S1)</td>
+              <td><a href="http://www.dinus.ac.id" target="_blank">Universitas Dian Nuswantoro</a></td>
+              <td>2025-lanjut</td>
+              <td>Sistem Informasi</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Keahlian & Hobi -->
+  <section id="keahlian" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Keahlian &amp; Hobi</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Keahlian Utama</h5>
+              <ul>
+                <li>Pemrograman Web Dasar (HTML, PHP)</li>
+                <li>Pengelolaan Database MySQL</li>
+                <li>Pemodelan Sistem (DFD &amp; ERD)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Hobi &amp; Minat</h5>
+              <ol>
+                <li>Membaca dokumentasi di <a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li>Eksplorasi Pembuatan Aplikasi Web</li>
+                <li>Menulis</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Proyek -->
+  <section id="proyek" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Proyek &amp; Aktivitas Akademik</h2>
+      <div class="row">
+        <div class="col-md-8 mb-3">
+          <article class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Tugas Pemrograman Web 1</h5>
+              <p class="card-text">
+                Pembuatan halaman profil dan interaktif menggunakan elemen semantik HTML,
+                tabel terstruktur, dan beberapa elemen input form.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4 mb-3">
+          <aside class="alert alert-info h-100">
+            <b>Catatan Kampus:</b> Informasi jadwal perkuliahan dan kurikulum dapat dilihat di portal
+            <a href="https://mhs.dinus.ac.id" target="_blank">Siadin Udinus</a>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Form Kontak -->
+  <section id="kontak" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-2">Form Kontak Pengunjung</h2>
+      <p class="mb-4">Silakan isi form di bawah ini untuk mengirimkan pesan.</p>
+
+      <form action="simpan.php" method="post">
+        <div class="mb-3">
+          <label for="fnama" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="fnama" name="fnama" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="femail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="femail" name="femail" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label d-block">Jenis Kelamin</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="pria" name="fjekl" value="Pria">
+            <label class="form-check-label" for="pria">Pria</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="wanita" name="fjekl" value="Wanita">
+            <label class="form-check-label" for="wanita">Wanita</label>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="fprodi" class="form-label">Program Studi</label>
+          <select class="form-select" id="fprodi" name="fprodi">
+            <option value="SI">Sistem Informasi S1</option>
+            <option value="TI">Teknik Informatika S1</option>
+            <option value="DKV">Desain Komunikasi Visual S1</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label d-block">Hobi / Minat</label>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="coding" name="fhobi[]" value="Coding">
+            <label class="form-check-label" for="coding">Coding</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="reading" name="fhobi[]" value="Membaca">
+            <label class="form-check-label" for="reading">Membaca</label>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="fpesan" class="form-label">Pesan</label>
+          <textarea class="form-control" id="fpesan" name="fpesan" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        <button type="reset" class="btn btn-secondary">Batal</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2026 Esa Cahya - Pemrograman Web Sistem Informasi Universitas Dian Nuswantoro</p>
+  </footer>
+
+  <!-- Bootstrap JS (dibutuhkan agar menu hamburger bisa dibuka) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
